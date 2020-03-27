@@ -1,0 +1,23 @@
+{
+    "name": "tfjs-node-test",
+    "description": "backend test of tfjs",
+    "version": "0.0.1",
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "scripts": {
+      "start": "node dist/index 8002",
+      "clean_full": "rm -r node_modules/; rm package-lock.json; rm -r dist/; rm yarn.lock; rm -r puzzles/*/*/node_modules; rm -r puzzles/*/*/dist; rm -r puzzles/*/*/yarn.lock; rm -r puzzles/*/*/package-lock.json"
+    },
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "dependencies": {
+      "@tensorflow/tfjs-node": "^1.7.0"
+    },
+    "devDependencies": {
+      "@types/node": "^13.9.0"
+    }
+  }
+  
