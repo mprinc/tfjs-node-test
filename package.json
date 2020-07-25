@@ -9,7 +9,7 @@
     },
     "scripts": {
       "start": "node dist/index 8002",
-      "clean_full": "rm -r node_modules/; rm package-lock.json; rm -r dist/; rm yarn.lock; rm -r puzzles/*/*/node_modules; rm -r puzzles/*/*/dist; rm -r puzzles/*/*/yarn.lock; rm -r puzzles/*/*/package-lock.json"
+      "clean_full": "rm -rf node_modules/; rm package-lock.json; rm -rf dist/; rm yarn.lock; rm -rf puzzles/*/*/node_modules; rm -rf puzzles/*/*/dist; rm -rf puzzles/*/*/yarn.lock; rm -rf puzzles/*/*/package-lock.json"
     },
     "main": "dist/index.js",
     "module": "dist/index.js",
